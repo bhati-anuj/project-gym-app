@@ -1,0 +1,23 @@
+{
+    "resources": [
+      {
+        "title": "Find me on Twitter",
+        
+        "imageUrl":"https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+      },
+      {
+        "title": "Welcome to Ark Labs",
+        
+        "imageUrl":"https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+      },
+      {
+        "title": "Some sort of third title",
+       
+        "imageUrl":"https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+      }
+  
+    ]
+  }

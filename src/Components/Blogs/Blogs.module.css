@@ -1,0 +1,63 @@
+.blogContainer {
+ padding: 20px;
+ width: 100%;
+ color: black; 
+}
+.banner img {
+  padding: 20px;
+  width: 100%;
+  height: 80vh;
+}
+.searchBar {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.search form {
+  width: 50vw;
+  
+}
+.searchBar h1 {
+  display: flex;
+  justify-content: center;
+
+  color: black;
+  font-family: "Lobster Two", cursive;
+  font-size: 5rem;
+  font-weight: 800;
+  text-decoration: underline;
+}
+.popularArticle {
+  display: grid;
+ 
+  grid-template-columns: auto auto ;
+
+  
+}
+.popularBox {
+  background-color: rgba(255, 255, 255, 0.8);
+
+  padding: 20px;
+  font-size: 20px;
+  text-align:justify;
+  
+}
+
+.recentArticle h2{
+  padding-top: 20px;
+}
+
+
+@media screen and (max-width:750px){
+  .popularArticle{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .popularBox{
+    width: 100%;
+    
+
+  }
+}

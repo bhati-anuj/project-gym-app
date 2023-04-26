@@ -1,0 +1,61 @@
+.membership_container{
+    width: 100%;
+    padding: 25px;
+    
+    display: block;
+}
+.container_1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+.container_2{
+    display: flex;
+    width: 100%;
+   
+}
+.pack{
+   
+    width: 50%;
+    margin: 20px;
+    height: 70vh;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border: 2px solid rgb(135, 5, 5);
+    padding: 25px;
+    color: black;
+}
+.checkmark::before{
+    content: '\2713';
+   color: rgb(203, 17, 17);
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 5px;
+    margin-bottom: 25px;
+}
+.cross::before{
+    content:'\2717';
+    font-size: 18px;
+    
+    margin-right: 5px;
+
+}
+
+.pack ul{
+    list-style:none;
+    
+}
+.pack li{
+    margin-bottom: 20px;
+}
+.pack h1,h4,button{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: rgb(151, 4, 4);
+}
+.price{
+    color: rgb(151, 4, 4);
+}

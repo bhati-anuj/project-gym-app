@@ -1,0 +1,45 @@
+.classesContainer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(238, 235, 235);
+}
+.classesImage {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.classesImage img {
+  padding: 15px;
+  width: 100%;
+  height: 90vh;
+}
+
+.classesTiming {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  
+ 
+}
+.classesCard {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.classesTiming h1{
+  text-align: center;
+  color: rgb(11, 11, 11);
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Lobster Two', cursive;
+  text-decoration: underline;
+}
+.classesTiming p{
+  color: rgb(11, 11, 11);
+  font-size: 2em;
+  /* justify-content: center;
+  align-items: center; */
+  text-align: center;
+}

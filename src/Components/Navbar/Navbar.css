@@ -1,0 +1,42 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  background-color: rgb(31, 29, 29);
+  font-size: calc(10px + 2vmin);
+  
+}
+.gym-logo {
+  width: 35%;
+  padding-left: 60px;
+}
+.gym-logo img {
+  border-radius: 100px;
+  height: 20vh;
+}
+.nav-links {
+  justify-content: right;
+  width: 55%;
+}
+.nav-container ul {
+  list-style: none;
+  text-align: justify;
+}
+.link-tag {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  justify-content: space-between;
+}
+
+.link-join{
+
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 5px;
+  font-weight: 700;
+
+}
