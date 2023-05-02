@@ -153,7 +153,7 @@ function Registration() {
                   borderBottomRightRadius: 0,
                 }}
                 variant="contained"
-                color="default"
+                color="success"
                 onClick={handleSubmitButton}
               >
                 Go to Login Page
@@ -161,7 +161,7 @@ function Registration() {
             </Link>
           ) : (
             <Button
-              color="default"
+              color="primary"
               sx={{
                 width: "12ch",
                 paddingBottom: "0px",
