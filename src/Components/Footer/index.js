@@ -11,7 +11,7 @@ export default function Footer() {
     <>
       <div className="container-footer">
         <div className="footer footer-div-1">
-          <h1>Apna GYM</h1>
+          <h1>The Warehouse GYM</h1>
           <p>Place to shape your Body & Soul.</p>
           <div className="icons-main">
             <ImFacebook2 className="icons" />
@@ -29,13 +29,13 @@ export default function Footer() {
           </ul>
           <hr />
           <ul>
-            <Link to="/aboutus">AboutUs</Link>
+            <Link to="/aboutus">About Us</Link>
             <Link to="/blogs">Blogs</Link>
             <Link to="#">Loreum</Link>
           </ul>
           <hr />
           <ul>
-            <Link to="/training">Traning</Link>
+            <Link to="/training">Training</Link>
             <Link to="team">Team</Link>
             <Link to="#">Loreum</Link>
           </ul>

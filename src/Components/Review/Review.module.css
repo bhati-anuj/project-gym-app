@@ -1,0 +1,65 @@
+#review_heading{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+.reviewContainer {
+  width: 100%;  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+}
+
+.bigDiv {
+  border-radius: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  background-color: rgba(17, 13, 13, 0.96);
+    height: 70vh;
+}
+.imageDiv img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: -340px;
+  margin-left: 28rem;
+  
+}
+.comments{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 30px;
+}
+.icons_review {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: start;
+  margin: 1rem 0;
+}
+.icons_review .icon {
+  text-decoration: none;
+  color: #faf5f5;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+
+.review_btn{
+  width: 7rem;
+  height: 3rem;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 540px;
+  color: black;
+ 
+}

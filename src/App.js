@@ -7,6 +7,7 @@ import Blogs from "./Components/Blogs/indedx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Team from "./Components/Team";
 import Footer from "./Components/Footer";
+import Registration from "./Components/Registration/Registration";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Route path="/classes" element={<Classes />} />
               <Route path="/blogs" element={<Blogs />} />
               <Route path="/Team" element={<Team />} />
+              <Route path="/registration" element={<Registration />} />
             </Routes>
             <Footer />
           </BrowserRouter>

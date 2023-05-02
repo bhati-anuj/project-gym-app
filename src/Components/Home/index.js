@@ -4,6 +4,7 @@ import "./Home.module.css";
 import { Data } from "../Home/Data";
 import Tranning from "../Tranning";
 import Membership from "../Membership";
+import Review from "../Review";
 
 
 export default function Home() {
@@ -78,9 +79,10 @@ export default function Home() {
           </div>
         </div>
 
-
+        
         <Membership />
         {/* <Tranning /> */}
+        <Review />
       </div>
     </>
   );

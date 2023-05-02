@@ -29,7 +29,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="nav-join">
-          <Link to={"#"} className="link-join">
+          <Link to={"/Registration"} className="link-join">
             Join Us
           </Link>
         </div>
