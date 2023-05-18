@@ -70,12 +70,22 @@ export default function Home() {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
               laborum soluta dolores reprehenderitos atque.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              laborum soluta dolores reprehenderitos atque.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              laborum soluta dolores reprehenderitos atque.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              laborum soluta dolores reprehenderitos atque.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              laborum soluta dolores reprehenderitos atque.
+             
+            
             </p>
             <button className="btn btn-danger btn-lg">Explore Now</button>
           </div>
           <div className={style.fitnessBox}>
             <img src="https://images.pexels.com/photos/13106586/pexels-photo-13106586.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-            <img src="https://images.pexels.com/photos/1978505/pexels-photo-1978505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            {/* <img src="https://images.pexels.com/photos/1978505/pexels-photo-1978505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" /> */}
           </div>
         </div>
 
